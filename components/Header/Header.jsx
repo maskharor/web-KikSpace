@@ -54,7 +54,7 @@ const Header = () => {
 
   return (
     <header className={`${classes.header}`} ref={headerRef}>
-      <Container className={'${classes.container}'}>
+      <Container>
         <div className={`${classes.nav__wrapper}`}>
           {/* ======== navigation logo ======== */}
           <div className={`${classes.logo}`}>

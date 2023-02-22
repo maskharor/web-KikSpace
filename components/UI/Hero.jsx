@@ -1,8 +1,6 @@
-import React from "react";
 import SectionSubtitle from "./SectionSubtitle";
 import { Container, Row, Col } from "reactstrap";
 import Image from "next/image";
-import Link from "next/link";
 import heroImg from "../../public/images/shoe-home.jpg";
 import classes from "../../styles/hero.module.css";
 
@@ -15,12 +13,10 @@ const Hero = () => {
           <Col lg="6" md="6">
             <div className={`${classes.hero__content}`}>
               <SectionSubtitle subtitle="Hello" />
-              <h2 className="mt-3 mb-3">I&apos;m Muhibur Rahman</h2>
-              <h5 className="mb-4">Frontend Developer</h5>
+              <h2 className="mt-3 mb-3">We are KickSpace</h2>
+              <h5 className="mb-4">Walk on Clouds with Our Comfortable Shoes</h5>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Impedit rem sint ipsa cumque. Atque rem vel iusto impedit omnis
-                quos!
+              Welcome to our website, the best place to find the right shoes for your style. We provide a wide range of shoes for women, men, and children from leading brands around the world.
               </p>
             </div>
           </Col>
