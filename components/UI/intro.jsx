@@ -11,8 +11,8 @@ const Intro = () => {
         <Row>
           {/* ========== hero content ============= */}
           <Col lg="6" md="6">
+            <SectionTitle subtitle="Hello" />
             <div className={`${classes.intro_content}`}>
-              <SectionTitle subtitle="Hello" />
               <h2 className="mt-3 mb-3">We are KickSpace</h2>
               <h5 className="mb-4">"Walk on Clouds with Our Comfortable Shoes"</h5>
               <p>

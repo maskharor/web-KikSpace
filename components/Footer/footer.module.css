@@ -1,11 +1,11 @@
-.nav__menu {
+.nav_menu {
   display: flex;
   align-items: center;
   column-gap: 2.8rem;
   margin-bottom: 20px;
 }
 
-.nav__menu a {
+.nav_menu a {
   color: #bfc0c0;
   font-weight: 500;
   font-size: 1rem;
@@ -14,29 +14,29 @@
   cursor: pointer;
 }
 
-.nav__menu a:hover {
+.nav_menu a:hover {
   color: #F99417;
 }
 
 
 
-.footer__creator h6 {
+.footer_creator h6 {
   text-align: right;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.852);
 }
 
-.footer__copyright {
+.footer_copyright {
   border-top: 1px solid #808dad49;
 }
-.footer__copyright p {
+.footer_copyright p {
   font-size: 0.8rem;
   text-align: center;
   padding-top: 20px;
 }
 
 @media only screen and (max-width: 768px) {
-  .footer__top {
+  .footer_top {
     display: none;
   }
 }

@@ -4,7 +4,7 @@ import { Container, Row, Col } from "reactstrap";
 import classes from "./footer.module.css";
 import Link from "next/link";
 
-const NAV__LINK = [
+const NAV_LINK = [
   {
     path: "/",
     display: "Home",
@@ -28,9 +28,9 @@ const Footer = () => {
       <Container>
         <Row>
           {/* ========= footer top =========== */}
-          <Col lg="6" className={`${classes.footer__top}`}>
-            <div className={`${classes.nav__menu}`}>
-              {NAV__LINK.map((item, index) => (
+          <Col lg="6" className={`${classes.footer_top}`}>
+            <div className={`${classes.nav_menu}`}>
+              {NAV_LINK.map((item, index) => (
                 <Link href={item.path} key={index}>
                   {item.display}
                 </Link>
@@ -38,17 +38,17 @@ const Footer = () => {
             </div>
           </Col>
 
-          <Col lg="6" className={`${classes.footer__top}`}>
-            <div className={`${classes.footer__creator}`}>
-              <h6>Created by </h6>
+          <Col lg="6" className={`${classes.footer_top}`}>
+            <div className={`${classes.footer_creator}`}>
+              <h6>Created by ~Maska </h6>
             </div>
           </Col>
 
           {/* ========= footer bottom ========= */}
           <Col lg="12">
-            <div className={`${classes.footer__copyright}`}>
+            <div className={`${classes.footer_copyright}`}>
               <p>
-                &copy; Copyright {year} - Developed by Maskharor Amnan Nidhom.{" "}
+                &copy; Copyright {year} - Developed by KickSpace.{" "}
               </p>
             </div>
           </Col>

@@ -16,7 +16,7 @@ const About = () => {
     <section id="about">
       <Container>
         <Row>
-          <Col lg="6" className={`${classes.about__content}`}>
+          <Col lg="6" className={`${classes.about_content}`}>
             <SectionTitle subtitle="About Us" />
             <h3 className="mt-4">We are here</h3>
             <h3 className="mb-4">to help you find the shoes that you want</h3>
@@ -35,14 +35,14 @@ const About = () => {
             <div className=" d-flex align-items-center gap-5">
               <div>
                 <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
-                  <span className={`${classes.about__icon}`}>
+                  <span className={`${classes.about_icon}`}>
                     <i className="ri-checkbox-circle-line"></i>
                   </span>
                   100% original
                 </h6>
 
                 <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
-                  <span className={`${classes.about__icon}`}>
+                  <span className={`${classes.about_icon}`}>
                     <i className="ri-checkbox-circle-line"></i>
                   </span>
                   Clear product descriptions
@@ -51,14 +51,14 @@ const About = () => {
 
               <div>
                 <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
-                  <span className={`${classes.about__icon}`}>
+                  <span className={`${classes.about_icon}`}>
                     <i className="ri-checkbox-circle-line"></i>
                   </span>
                   Best prices
                 </h6>
 
                 <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
-                  <span className={`${classes.about__icon}`}>
+                  <span className={`${classes.about_icon}`}>
                     <i className="ri-checkbox-circle-line"></i>
                   </span>
                   Fast shipping
@@ -69,17 +69,17 @@ const About = () => {
 
           <Col lg="6">
             <div
-              className={`${classes.about__img__gallery} d-flex gap-4 justify-content-end`}
+              className={`${classes.about_img_gallery} d-flex gap-4 justify-content-end`}
             >
               <div className=" d-flex flex-column mb-3">
                 <div
-                  className={`${classes.about__img} ${classes.about__img__box}`}
+                  className={`${classes.about_img} ${classes.about_img_box}`}
                 >
                   <Image src={img01} alt="about-img" />
                 </div>
 
                 <div
-                  className={`${classes.about__img} ${classes.about__img__box}`}
+                  className={`${classes.about_img} ${classes.about_img_box}`}
                 >
                   <Image src={img02} alt="about-img" />
                 </div>
@@ -87,13 +87,13 @@ const About = () => {
 
               <div className=" d-flex flex-column mb-3">
                 <div
-                  className={`${classes.about__img} ${classes.about__img__box}`}
+                  className={`${classes.about_img} ${classes.about_img_box}`}
                 >
                   <Image src={img03} alt="about-img" />
                 </div>
 
                 <div
-                  className={`${classes.about__img} ${classes.about__img__box}`}
+                  className={`${classes.about_img} ${classes.about_img_box}`}
                 >
                   <Image src={img04} alt="about-img" />
                 </div>

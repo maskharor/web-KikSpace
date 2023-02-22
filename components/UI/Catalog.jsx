@@ -35,10 +35,10 @@ const Catalog = () => {
     }
   }, [filter]);
 
-  const active = `${classes.tab__btn__active}`;
+  const active = `${classes.tab_btn_active}`;
 
   return (
-    <section id="portfolio">
+    <section id="catalog">
       <Container>
         <hr></hr>
         <Row>
@@ -47,11 +47,11 @@ const Catalog = () => {
           </Col>
 
           <Col lg="6" md="6">
-            <div className={`${classes.tab__btns} text-end`}>
+            <div className={`${classes.tab_btns} text-end`}>
               <button
                 className={` ${
                   filter === "Nike" ? active : ""
-                } secondary__btn text-white`}
+                } secondary_btn text-white`}
                 onClick={() => setFilter("Nike")}
               >
               <strong>NIKE</strong>
@@ -59,7 +59,7 @@ const Catalog = () => {
               <button
                 className={`${
                   filter === "Adidas" ? active : ""
-                } secondary__btn text-white`}
+                } secondary_btn text-white`}
                 onClick={() => setFilter("Adidas")}
               >
                 <strong>ADIDAS</strong>
@@ -67,7 +67,7 @@ const Catalog = () => {
               <button
                 className={` ${
                   filter === "Converse" ? active : ""
-                } secondary__btn text-white`}
+                } secondary_btn text-white`}
                 onClick={() => setFilter("Converse")}
               >
                 <strong>CONVERSE</strong>

@@ -1,29 +1,29 @@
-.carousel__item {
+.carousel_item {
   padding: 0px 20px;
   margin-bottom: 50px ;
 }
 
-.carousel__client {
+.carousel_client {
   display: flex;
   column-gap: 1rem;
   margin-bottom: 30px;
 }
 
-.carousel__client h6 {
+.carousel_client h6 {
   font-weight: 400;
 }
 
-.carousel__client h6:last-child {
+.carousel_client h6:last-child {
   color: #01d293;
 }
 
 @media only screen and (max-width: 768px) {
-  .carousel__img img {
+  .carousel_img img {
     width: 300px !important;
     height: 300px !important;
   }
 
-  .carousel__img {
+  .carousel_img {
     text-align: center;
     margin-bottom: 30px;
   }

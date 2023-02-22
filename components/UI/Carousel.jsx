@@ -21,8 +21,8 @@ const Carousel = () => {
         <Row>
           <Col lg="12" md="12">
             <Slider {...settings}>
-              <div className={`${classes.carousel__item}`}>
-                <div className={`${classes.carousel__client}`}>
+              <div className={`${classes.carousel_item}`}>
+                <div className={`${classes.carousel_client}`}>
                   <Image
                     alt="client-img"
                     src="/images/carousel-image1.jpg"
@@ -33,8 +33,8 @@ const Carousel = () => {
                 </div>
               </div>
 
-              <div className={`${classes.carousel__item}`}>
-                <div className={`${classes.carousel__client}`}>
+              <div className={`${classes.carousel_item}`}>
+                <div className={`${classes.carousel_client}`}>
                   <Image
                     alt="client-img"
                     src="/images/carousel-image2.jpg"
@@ -45,8 +45,8 @@ const Carousel = () => {
                 </div>
               </div>
 
-              <div className={`${classes.carousel__item}`}>
-                <div className={`${classes.carousel__client}`}>
+              <div className={`${classes.carousel_item}`}>
+                <div className={`${classes.carousel_client}`}>
                   <Image
                     alt="client-img"
                     src="/images/carousel-image3.jpg"

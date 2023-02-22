@@ -45,31 +45,31 @@ footer {
   border-top: 1px solid #171f38;
 }
 
-.primary__btn {
+.primary_btn {
   background: #171f38 !important;
   padding: 7px 25px !important;
   border: 1px solid #F99417 !important;
   border-radius: 5px;
 }
 
-.primary__btn a {
+.primary_btn a {
   text-decoration: none;
   color: #F99417;
   background: transparent !important;
 }
 
-.secondary__btn {
+.secondary_btn {
   background: transparent;
   border: none;
   outline: none;
   padding: 7px 25px;
 }
 
-.secondary__btn a {
+.secondary_btn a {
   color: #F99417 !important;
 }
-.primary__btn a:hover,
-.secondary__btn a:hover {
+.primary_btn a:hover,
+.secondary_btn a:hover {
   color: #F99417;
 }
 
@@ -88,8 +88,8 @@ footer {
     font-size: 0.9rem !important;
   }
 
-  .primary__btn a,
-  .secondary__btn a {
+  .primary_btn a,
+  .secondary_btn a {
     font-size: 0.9rem;
   }
 }

@@ -4,7 +4,7 @@ import { Container } from "reactstrap";
 import classes from "./header.module.css";
 import Link from "next/link";
 
-const NAV__LINK = [
+const NAV_LINK = [
   {
     path: "/",
     display: "Home",
@@ -29,9 +29,9 @@ const Header = () => {
       document.body.scrollTop > 80 ||
       document.documentElement.scrollTop > 80
     ) {
-      headerRef.current.classList.add(`${classes.header__shrink}`);
+      headerRef.current.classList.add(`${classes.header_shrink}`);
     } else {
-      headerRef.current.classList.remove(`${classes.header__shrink}`);
+      headerRef.current.classList.remove(`${classes.header_shrink}`);
     }
   };
 
@@ -42,12 +42,12 @@ const Header = () => {
   }, []);
 
   const toggleMenu = () =>
-    menuRef.current.classList.toggle(`${classes.menu__active}`);
+    menuRef.current.classList.toggle(`${classes.menu_active}`);
 
   return (
     <header className={`${classes.header}`} ref={headerRef}>
       <Container>
-        <div className={`${classes.nav__wrapper}`}>
+        <div className={`${classes.nav_wrapper}`}>
           {/* ======== navigation logo ======== */}
           <div className={`${classes.logo}`}>
             <h1>
@@ -61,14 +61,14 @@ const Header = () => {
             ref={menuRef}
             onClick={toggleMenu}
           >
-            <div className={`${classes.nav__menu}`}>
-              {NAV__LINK.map((item, index) => (
+            <div className={`${classes.nav_menu}`}>
+              {NAV_LINK.map((item, index) => (
                 <Link href={item.path} key={index}>
                   {item.display}
                 </Link>
               ))}
 
-              <div className={`${classes.nav__right}`}>
+              <div className={`${classes.nav_right}`}>
                 <p className=" d-flex align-items-center gap-2 mb-0">
                   {" "}
                   <i className="ri-phone-line"></i> +081232576420{" "}
@@ -77,7 +77,7 @@ const Header = () => {
             </div>
           </div>
 
-          <span className={`${classes.mobile__menu}`}>
+          <span className={`${classes.mobile_menu}`}>
             <i className="ri-menu-line" onClick={toggleMenu}></i>
           </span>
         </div>
