@@ -1,13 +1,14 @@
 const catalog = [
   {
     id: "01",
-    title: "Nike Wmns Air Zoom Pegasus 38",
+    title: "Nike KD 15",
     img: "/images/catalog-img1.jpg",
     category: "Nike",
-    keyword: ["Nike", "Sport", "Running"],
+    keyword: ["Nike", "Sport", "Basket"],
     liveUrl: "#",
   },
 
+  // ========================== Adidas Shoes ===================
   {
     id: "02",
     title: "Dame Extply 2.0 (Certified)",
@@ -19,7 +20,7 @@ const catalog = [
 
   {
     id: "03",
-    title: "Converse",
+    title: "Converse Chuck 70 -Black",
     img: "/images/catalog-img3.jpg",
     category: "Converse",
     keyword: ["Converse", "Casual", "Style"],
@@ -46,8 +47,8 @@ const catalog = [
 
   {
     id: "06",
-    title: "Adidas cq2114",
-    img: "/images/catalog-img9.jpg",
+    title: "Adidas Court Silk",
+    img: "/images/catalog-img6.jpg",
     category: "Adidas",
     keyword: ["Adidas", "Sport", "Running"],
     liveUrl: "#",
@@ -74,7 +75,7 @@ const catalog = [
   {
     id: "09",
     title: "Dame 8",
-    img: "/images/catalog-img10.jpg",
+    img: "/images/catalog-img9.jpg",
     category: "Adidas",
     keyword: ["Adidas", "Sport", "Basket"],
     liveUrl: "#",
@@ -82,11 +83,130 @@ const catalog = [
   {
     id: "10",
     title: "Yeezy Boost 350",
-    img: "/images/catalog-img11.jpg",
+    img: "/images/catalog-img10.jpg",
     category: "Adidas",
     keyword: ["Adidas", "Casual", "Style"],
     liveUrl: "#",
   },
+
+  // ========================== Nike Shoes ===================
+  
+  {
+    id: "11",
+    title: "Nike Air Max SC",
+    img: "/images/catalog-img11.jpg",
+    category: "Nike",
+    keyword: ["Nike", "Casual", "Style"],
+    liveUrl: "#",
+  },
+  {
+    id: "12",
+    title: "Nike Court Legacy",
+    img: "/images/catalog-img12.jpg",
+    category: "Nike",
+    keyword: ["Nike", "Casual", "Style"],
+    liveUrl: "#",
+  },
+  {
+    id: "13",
+    title: "Nike Zoom Fly 5",
+    img: "/images/catalog-img13.jpg",
+    category: "Nike",
+    keyword: ["Nike", "Sport", "Running"],
+    liveUrl: "#",
+  },
+  {
+    id: "14",
+    title: "Air ZOOM Pegasus 39",
+    img: "/images/catalog-img14.jpg",
+    category: "Nike",
+    keyword: ["Nike", "Sport", "Running"],
+    liveUrl: "#",
+  },
+  {
+    id: "15",
+    title: "Lebron XX",
+    img: "/images/catalog-img15.jpg",
+    category: "Nike",
+    keyword: ["Nike", "Sport", "Basket"],
+    liveUrl: "#",
+  },
+  {
+    id: "16",
+    title: "Jordan Luka 1",
+    img: "/images/catalog-img16.jpg",
+    category: "Nike",
+    keyword: ["Nike", "Sport", "Basket"],
+    liveUrl: "#",
+  },
+  {
+    id: "17",
+    title: "Air Jordan 3 Retro",
+    img: "/images/catalog-img17.jpg",
+    category: "Nike",
+    keyword: ["Nike", "Casual", "Style"],
+    liveUrl: "#",
+  },
+
+  // ========================== Converse Shoes ===================
+  {
+    id: "18",
+    title: "Converse CT All Star -Optic White ",
+    img: "/images/catalog-img18.jpg",
+    category: "Converse",
+    keyword: ["Converse", "Casual", "Style"],
+    liveUrl: "#",
+  },
+  {
+    id: "19",
+    title: "Converse Chuck 70 High -Sunflower",
+    img: "/images/catalog-img19.jpg",
+    category: "Converse",
+    keyword: ["Converse", "Casual", "Style"],
+    liveUrl: "#",
+  },
+  {
+    id: "20",
+    title: "Converse Chuck 70 High -Parchment",
+    img: "/images/catalog-img20.jpg",
+    category: "Converse",
+    keyword: ["Converse", "Casual", "Style"],
+    liveUrl: "#",
+  },
+  {
+    id: "21",
+    title: "Converse Chuck Taylor -Obsidian",
+    img: "/images/catalog-img21.jpg",
+    category: "Converse",
+    keyword: ["Converse", "Casual", "Style"],
+    liveUrl: "#",
+  },
+  {
+    id: "22",
+    title: "Converse Chuck Taylor -Reflective",
+    img: "/images/catalog-img22.jpg",
+    category: "Converse",
+    keyword: ["Converse", "Casual", "Style"],
+    liveUrl: "#",
+  },
+  {
+    id: "23",
+    title: "Converse CTAS HIGH STREET MID ",
+    img: "/images/catalog-img23.jpg",
+    category: "Converse",
+    keyword: ["Converse", "Casual", "Style"],
+    liveUrl: "#",
+  },
+  {
+    id: "24",
+    title: "Converse Chuck Taylor -Red",
+    img: "/images/catalog-img24.jpg",
+    category: "Converse",
+    keyword: ["Converse", "Casual", "Style"],
+    liveUrl: "#",
+  },
+
+  
 ];
 
 export default catalog;

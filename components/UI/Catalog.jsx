@@ -25,6 +25,14 @@ const Catalog = () => {
 
       setData(filteredData);
     }
+
+    if (filter === "Converse") {
+      const filteredData = catalogData.filter(
+        (item) => item.category === filter
+      );
+
+      setData(filteredData);
+    }
   }, [filter]);
 
   const active = `${classes.tab__btn__active}`;
@@ -46,7 +54,7 @@ const Catalog = () => {
                 } secondary__btn text-white`}
                 onClick={() => setFilter("Nike")}
               >
-                NIKE
+              <strong>NIKE</strong>
               </button>
               <button
                 className={`${
@@ -54,7 +62,15 @@ const Catalog = () => {
                 } secondary__btn text-white`}
                 onClick={() => setFilter("Adidas")}
               >
-                ADIDAS
+                <strong>ADIDAS</strong>
+              </button>
+              <button
+                className={` ${
+                  filter === "Converse" ? active : ""
+                } secondary__btn text-white`}
+                onClick={() => setFilter("Converse")}
+              >
+                <strong>CONVERSE</strong>
               </button>
             </div>
           </Col>
