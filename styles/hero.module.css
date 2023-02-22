@@ -13,6 +13,15 @@
 .hero__img {
   position: relative;
   z-index: 9;
+  transition: 0.3s;
+}
+.hero__img:hover{
+  cursor: pointer;
+  transform: translateY(-20px);
+  -webkit-transform: translateY(-20px);
+  -moz-transform: translateY(-20px);
+  -ms-transform: translateY(-20px);
+  -o-transform: translateY(-20px);
 }
 
 .hero__img img {

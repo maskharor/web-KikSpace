@@ -1,26 +1,25 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "reactstrap";
-import SectionSubtitle from "./SectionSubtitle";
-import classes from "../../styles/portfolio.module.css";
-import PortfolioItem from "./PortfolioItem";
+import classes from "../../styles/catalog.module.css";
+import CatalogItem from "./CatalogItem";
 
-import portfolioData from "../data/portfolio";
+import catalogData from "../data/catalog";
 
-const Portfolio = () => {
-  const [filter, setFilter] = useState("Mobile App");
+const Catalog = () => {
+  const [filter, setFilter] = useState("Nike");
   const [data, setData] = useState();
 
   useEffect(() => {
-    if (filter === "Mobile App") {
-      const filteredData = portfolioData.filter(
+    if (filter === "Nike") {
+      const filteredData = catalogData.filter(
         (item) => item.category === filter
       );
 
       setData(filteredData);
     }
 
-    if (filter === "Web Design") {
-      const filteredData = portfolioData.filter(
+    if (filter === "Adidas") {
+      const filteredData = catalogData.filter(
         (item) => item.category === filter
       );
 
@@ -33,36 +32,36 @@ const Portfolio = () => {
   return (
     <section id="portfolio">
       <Container>
+        <hr></hr>
         <Row>
           <Col lg="6" md="6" className="mb-5">
-            <SectionSubtitle subtitle=" My portfolio" />
-            <h4 className="mt-4">Some of my distinguished works</h4>
+            <h4 className="mt-4">Catalog Of Shoes</h4>
           </Col>
 
           <Col lg="6" md="6">
             <div className={`${classes.tab__btns} text-end`}>
               <button
                 className={` ${
-                  filter === "Mobile App" ? active : ""
+                  filter === "Nike" ? active : ""
                 } secondary__btn text-white`}
-                onClick={() => setFilter("Mobile App")}
+                onClick={() => setFilter("Nike")}
               >
-                Mobile App
+                NIKE
               </button>
               <button
                 className={`${
-                  filter === "Web Design" ? active : ""
+                  filter === "Adidas" ? active : ""
                 } secondary__btn text-white`}
-                onClick={() => setFilter("Web Design")}
+                onClick={() => setFilter("Adidas")}
               >
-                Web Design
+                ADIDAS
               </button>
             </div>
           </Col>
 
           {data?.map((item) => (
-            <Col lg="4" md="4" sm="6" key={item.id}>
-              <PortfolioItem item={item} />
+            <Col lg="3  " md="4" sm="6" key={item.id}>
+              <CatalogItem item={item} />
             </Col>
           ))}
         </Row>
@@ -71,4 +70,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default Catalog;

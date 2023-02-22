@@ -1,28 +1,30 @@
-.portfolio__item {
-  background: #171f38;
+.catalog__item {
+  background: #482c70;
   padding: 0px 20px 20px 20px;
   padding-top: 30px;
   border-radius: 10px;
   margin-bottom: 30px;
+
 }
 
-.portfolio__item h6 {
-  color: #01d293;
+.catalog__item h6 {
+  color: #F99417;
   margin-bottom: 20px;
   background: transparent;
+  
 }
 
-.portfolio__img {
+.catalog__img {
   margin-top: 30px;
 
   background: transparent;
 }
 
-.portfolio__img img {
+.catalog__img img {
   border-radius: 10px;
 }
 
-.portfolio__keyword {
+.catalog__keyword {
   padding: 5px 10px;
   color: #fff;
   background: #808dad68;
@@ -31,19 +33,19 @@
   border-radius: 5px;
 }
 
-.portfolio__live {
+.catalog__live {
   margin-left: -100px;
   margin-top: 30px;
   display: none;
 }
 
-.portfolio__item:hover .portfolio__live {
+.catalog__item:hover .catalog__live {
   margin-left: 0;
   display: block;
 }
 
 @media only screen and (max-width: 576px) {
-  .portfolio__img img {
+  .catalog__img img {
     width: 100% !important;
   }
 }
