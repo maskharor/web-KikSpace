@@ -22,15 +22,6 @@ const Hero = () => {
                 Impedit rem sint ipsa cumque. Atque rem vel iusto impedit omnis
                 quos!
               </p>
-              <div className="mt-5">
-                <button className="primary__btn">
-                  <Link href="#">Hire me</Link>
-                </button>
-
-                <button className="secondary__btn">
-                  <Link href="#">Download CV</Link>
-                </button>
-              </div>
             </div>
           </Col>
 
