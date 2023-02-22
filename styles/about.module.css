@@ -4,9 +4,15 @@
 
 .about__img {
   padding: 10px;
-  background: #171f38;
+  background: #482c70;
   margin-bottom: 20px;
   border-radius: 5px;
+  transition: 0.3s;
+}
+.about__img:hover{
+  background: #E8E2E2;
+  cursor: pointer;
+  transform: translateY(-20px);
 }
 
 .about__img img {

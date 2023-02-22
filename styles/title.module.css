@@ -1,11 +1,11 @@
-.section__subtitle {
+.section_title {
   color: #F99417 !important;
   font-weight: 400;
   margin-left: 40px;
   position: relative;
 }
 
-.section__subtitle::before {
+.section_title::before {
   content: "";
   position: absolute;
   top: 50%;

@@ -1,18 +1,18 @@
-import SectionSubtitle from "./SectionSubtitle";
+import SectionTitle from "./SectionTitle";
 import { Container, Row, Col } from "reactstrap";
 import Image from "next/image";
-import heroImg from "../../public/images/shoe-home.jpg";
-import classes from "../../styles/hero.module.css";
+import introImg from "../../public/images/shoe-home.jpg";
+import classes from "../../styles/intro.module.css";
 
-const Hero = () => {
+const Intro = () => {
   return (
-    <section className={`${classes.hero}`}>
+    <section className={`${classes.intro}`}>
       <Container>
         <Row>
           {/* ========== hero content ============= */}
           <Col lg="6" md="6">
-            <div className={`${classes.hero__content}`}>
-              <SectionSubtitle subtitle="Hello" />
+            <div className={`${classes.intro_content}`}>
+              <SectionTitle subtitle="Hello" />
               <h2 className="mt-3 mb-3">We are KickSpace</h2>
               <h5 className="mb-4">"Walk on Clouds with Our Comfortable Shoes"</h5>
               <p>
@@ -23,8 +23,8 @@ const Hero = () => {
 
           {/* ========== hero img ============= */}
           <Col lg="6" md="6">
-            <div className={`${classes.hero__img} text-end`}>
-              <Image alt="hero-image" src={heroImg} width="400" height="400" />
+            <div className={`${classes.intro_img} text-end`}>
+              <Image alt="intro-image" src={introImg} width="400" height="400" />
 
               
             </div>
@@ -35,4 +35,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Intro;

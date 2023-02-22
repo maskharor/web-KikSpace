@@ -1,13 +1,13 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import Link from "next/link";
-import SectionSubtitle from "./SectionSubtitle";
+import SectionTitle from "./SectionTitle";
 import Image from "next/image";
 
-import img01 from "../../public/images/img-01.jpg";
-import img02 from "../../public/images/img-02.jpg";
-import img03 from "../../public/images/img-03.jpg";
-import img04 from "../../public/images/hero.jpg";
+import img01 from "../../public/images/about-img1.jpg";
+import img02 from "../../public/images/about-img2.jpg";
+import img03 from "../../public/images/about-img3.jpg";
+import img04 from "../../public/images/about-img4.jpg";
 
 import classes from "../../styles/about.module.css";
 
@@ -17,15 +17,19 @@ const About = () => {
       <Container>
         <Row>
           <Col lg="6" className={`${classes.about__content}`}>
-            <SectionSubtitle subtitle="About me" />
-            <h3 className="mt-4">I&apos;m here</h3>
-            <h3 className="mb-4">to help your next project</h3>
+            <SectionTitle subtitle="About Us" />
+            <h3 className="mt-4">We are here</h3>
+            <h3 className="mb-4">to help you find the shoes that you want</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
-              neque asperiores temporibus quo saepe odio, esse labore libero
-              obcaecati quidem explicabo blanditiis deleniti ex vitae ratione
-              ullam fugiat dicta eum sint officiis porro illum quia. Error quam
-              cum excepturi beatae.
+              KickSpace allows you to buy shoes without leaving your home. We
+              have all types of shoes you need for various purposes and
+              activities. Enjoy an easy and comfortable shopping experience with
+              intuitive navigation, clear product descriptions, and high-quality
+              images. Additionally, we offer competitive prices and fast
+              shipping, so you can easily obtain your dream shoes. For size
+              issues, we guide you through the size selection process. Don't
+              hesitate to make a purchase because we accept size exchanges
+              (terms and conditions apply).
             </p>
 
             <div className=" d-flex align-items-center gap-5">
@@ -34,14 +38,14 @@ const About = () => {
                   <span className={`${classes.about__icon}`}>
                     <i className="ri-checkbox-circle-line"></i>
                   </span>
-                  Problem Solving
+                  100% original
                 </h6>
 
                 <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
                   <span className={`${classes.about__icon}`}>
                     <i className="ri-checkbox-circle-line"></i>
                   </span>
-                  Search A Lot
+                  Clear product descriptions
                 </h6>
               </div>
 
@@ -50,26 +54,16 @@ const About = () => {
                   <span className={`${classes.about__icon}`}>
                     <i className="ri-checkbox-circle-line"></i>
                   </span>
-                  Creative Idea
+                  Best prices
                 </h6>
 
                 <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
                   <span className={`${classes.about__icon}`}>
                     <i className="ri-checkbox-circle-line"></i>
                   </span>
-                  High Quality
+                  Fast shipping
                 </h6>
               </div>
-            </div>
-
-            <div className="mt-5">
-              <button className="primary__btn">
-                <Link href="#portfolio">My Portfolio</Link>
-              </button>
-
-              <button className="secondary__btn">
-                <Link href="#">Download CV</Link>
-              </button>
             </div>
           </Col>
 
