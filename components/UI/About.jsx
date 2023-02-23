@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
-import Link from "next/link";
 import SectionTitle from "./SectionTitle";
 import Image from "next/image";
 
